@@ -31,16 +31,12 @@
   gap: 40px;
 }
 
-.product_img img{
+.product_img {
   width: 100%;
-  object-fit: contain;
 }
 
 .product_img img{
   width: 100%;
-
-  justify-content: center;
-  object-fit: contain;
 }
 
 .price_wrapper {
@@ -62,10 +58,12 @@
     font-size: 20px;
     font-weight: var(--weight-normal);
 }
+
 .discount_value{
     font-size: 28px;
-    color: var(--red-color);
+    color: var(--color-red);
 }
+
 .product_info_description{
     padding-top: 25px;
     border-top: 1px dashed #C0C0C0;
