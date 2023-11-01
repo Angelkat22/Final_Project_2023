@@ -1,4 +1,3 @@
-import React, { forwardRef } from 'react'
 import styles from './CategoriesList.module.css'
 import CategoryItem from '../CategoryItem/CategoryItem'
 import Button from '../UI/Button/Button'

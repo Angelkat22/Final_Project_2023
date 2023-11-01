@@ -1,8 +1,6 @@
 import React from 'react'
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import styles from './ModalWindow.module.css'
-import Button from '../UI/Button/Button';
-import { NavLink } from 'react-router-dom';
 
 function ModalWindow({modalActive, setModalActive, cong_text, follow_text}) {
   return (
@@ -16,15 +14,6 @@ function ModalWindow({modalActive, setModalActive, cong_text, follow_text}) {
           }} />
           <p>{cong_text}</p>
           <p>{follow_text}</p>
-          {/* <NavLink to='/'> 
-            <Button text={'Continue shopping'} 
-                    defined_style={'header_btn'} 
-                    onClick={() => {
-                    setModalActive(false);
-                    document.body.style.overflow = '';
-                    }
-            } />
-          </NavLink> */}
         </div>
       </div>
     </div>
