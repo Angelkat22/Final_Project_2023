@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Contacts.module.css'
 import { NavLink } from 'react-router-dom'
-import iconInsta from './images/Insta.png'
-import iconWhatsApp from './images/Insta.png'
+import iconInsta from './assets/Insta.png'
+import iconWhatsApp from './assets/WhatsApp.png'
 
 function Contacts() {
     return (

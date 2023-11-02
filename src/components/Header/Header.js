@@ -5,7 +5,7 @@ import Button from '../UI/Button/Button'
 import {SlHandbag} from 'react-icons/sl'
 import CounterCart from '../CounterCart/CounterCart'
 import MobileIcon from '../MobileIcon/MobileIcon'
-import logo from './images/logo.png';
+import logo from './assets/logo.png';
 
 
 function Header({activeMenu, setActiveMenu}) {

@@ -10,7 +10,17 @@
     position: relative;
     z-index: 3;
 }
-
+.mobile_line_middle {
+    margin-bottom: 7px;
+    top: 8px;
+    display: block;
+        
+    height: 3px;
+    width: 15px;
+    background-color: var(--color-black);
+    border-radius: 2px;
+    transition: all .5s;
+}
 .mobile_line {
     margin-bottom: 7px;
     top: 8px;
@@ -31,10 +41,9 @@
     transition: var(--transition);
 }
 
-.active_mobile_menu .mobile_line:nth-child(2) {
+.active_mobile_menu .mobile_line_middle {
     background-color: transparent;
 }
-
 .active_mobile_menu .mobile_line:last-child {
     top: 10px;
 

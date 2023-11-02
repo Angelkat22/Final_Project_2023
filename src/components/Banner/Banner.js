@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Banner.module.css'
 import Button from '../UI/Button/Button'
-import garden from './images/garden.png'
+import garden from './assets/garden.png'
 
 function Banner({scrollToSaleList}) {
     return (
